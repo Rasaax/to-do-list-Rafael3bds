@@ -1,0 +1,85 @@
+body {
+  font-family: , sans-serif;
+  background-color: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.lista {
+  background-color: #BFBFBF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #404040;
+}
+
+.adicionar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #8C8C8C;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  padding: 10px;
+  background-color: #737373;
+  color: #F2F2F2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+  background-color: #404040;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #8C8C8C;
+  color: #F2F2F2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+li.completo {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+li button {
+  background-color: transparent;
+  border: none;
+  color: #F2F2F2;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
